@@ -1,0 +1,14 @@
+{
+  "name": "node-periscope-stream-id-grabber",
+  "version": "0.1.0",
+  "description": "Grab id of a Periscope live stream",
+  "main": "idgrabber.js",
+  "keywords": [
+    "periscope",
+    "stream"
+  ],
+  "author": {
+    "name": "Jayden Ma",
+    "email": "jayden87@gmail.com"
+  }
+}
