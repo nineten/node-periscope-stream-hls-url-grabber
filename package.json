@@ -1,8 +1,8 @@
 {
-  "name": "node-periscope-stream-id-grabber",
+  "name": "node-periscope-stream-hls-url-grabber",
   "version": "0.1.0",
-  "description": "Grab id of a Periscope live stream",
-  "main": "idgrabber.js",
+  "description": "Grab hls url of a Periscope live stream",
+  "main": "hlsUrlGrabber.js",
   "keywords": [
     "periscope",
     "stream"
