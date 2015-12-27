@@ -11,6 +11,7 @@
     "name": "Jayden Ma",
     "email": "jayden87@gmail.com"
   },
+	"repository": "nineten/node-periscope-stream-hls-url-grabber",
 	"dependencies": {
 		"node-periscope-stream": ">= 0.1.4"
 	}
