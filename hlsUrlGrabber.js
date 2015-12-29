@@ -11,9 +11,11 @@ PeriscopeHlsUrlGrabber.prototype.start = function(userId, callback) {
 	var streamId;
 	var streamAddress = 'https://www.periscope.tv/w/' + streamId;
 
+	console.log(this.twitterClientConfig);
 	var params = {screen_name: this.username};
 	var client = new Twitter(this.twitterClientConfig);	
 
+	console.log(client);
 	client.get('statuses/user_timeline', params, function(error, tweets, response){
 		if (!error) {
 			var tweet = tweets[0].text;
