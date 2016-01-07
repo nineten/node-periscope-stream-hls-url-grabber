@@ -13,7 +13,7 @@
   },
 	"repository": "nineten/node-periscope-stream-hls-url-grabber",
 	"dependencies": {
-		"node-periscope-stream": ">= 0.1.4",
+		"node-periscope-stream": "git://github.com/nineten/node-periscope-stream.git",
 		"twitter": "git://github.com/nineten/node-twitter.git",
 		"expand-url": "^0.1.3"
 	}
