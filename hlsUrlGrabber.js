@@ -23,7 +23,7 @@ PeriscopeHlsUrlGrabber.prototype.start = function(userId, callback) {
 				if (urlMatch === null) {
 					callback("There is no stream", null);
 				} else {
-					var tweetUrl = uriMatch[0];
+					var tweetUrl = urlMatch[0];
 
 					urlExpander.expand(tweetUrl, function(err, longUrl) {
 							console.log(longUrl);
